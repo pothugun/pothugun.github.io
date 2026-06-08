@@ -1,20 +1,6 @@
-\---
+Dissertation Completion Fellowship
 
-layout: default
+Cloud Computing Fellowship
 
-title: Fellowships
-
-active: fellowships
-
-\---
-
-
-
-\### Dissertation Completion Fellowship
-
-\### Cloud Computing Fellowship
-
-\### Colleges Online Learning Academy Fellowship
-
-
+Colleges Online Learning Academy Fellowship
 
