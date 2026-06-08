@@ -1,20 +1,6 @@
-\---
-
-layout: default
-
-title: Publications
-
-active: publications
-
-\---
 
 
-
-\## Publications
-
-
-
-\### Journal Publications
+Journal Publications
 
 
 
@@ -26,7 +12,7 @@ Pothugunta, K., Liu, X., Susarla, A., and Padman, R. Assessing Inclusion and Rep
 
 
 
-\### Conference Presentations
+Conference Presentations
 
 
 
