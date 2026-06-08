@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }} | {{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <h1 class="site-title">KRISHNA P. POTHUGUNTA</h1>
+
+  <div class="profile-box">
+    <div class="profile-photo">
+      <img src="/assets/img/profile.png" alt="Krishna P. Pothugunta">
+    </div>
+
+    <div class="profile-info">
+      <p>Postdoctoral Research Associate</p>
+      <p>IT, Analytics, and Operations</p>
+      <p>Mendoza College of Business</p>
+      <p>University of Notre Dame</p>
+
+      <p>📧 <a href="mailto:kpothugu@nd.edu">kpothugu@nd.edu</a></p>
+      <p>📄 <a href="/assets/files/Krishna_Pothugunta_CV.pdf">Download CV</a></p>
+      <p>🌐 <a href="https://pothugun.github.io">pothugun.github.io</a></p>
+      <p>🎓 <a href="[ADD GOOGLE SCHOLAR LINK]">Google Scholar</a></p>
+      <p>🆔 <a href="https://orcid.org/0009-0000-1882-1825">ORCID</a></p>
+      <p>💻 <a href="https://github.com/pothugun">GitHub</a></p>
+    </div>
+  </div>
+
+<nav class="tabs">
+  <a class="{% if page.active == 'biography' %}active{% endif %}" href="/">Biography</a>
+  <a class="{% if page.active == 'background' %}active{% endif %}" href="/background.html">Background</a>
+  <a class="{% if page.active == 'publications' %}active{% endif %}" href="/publications.html">Publications</a>
+  <a class="{% if page.active == 'fellowships' %}active{% endif %}" href="/fellowships.html">Fellowships</a>
+</nav>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+</body>
+</html>
